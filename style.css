@@ -79,6 +79,7 @@ body{
     font-family: "DSEG7_b";
     font-size: 56px;
     color: var(--font-def);
+    text-align: center;
 }
 
 #app_actives{
@@ -163,3 +164,4 @@ body{
     background-color: var(--background-app);
     color: var(--font-def);
 }
+
