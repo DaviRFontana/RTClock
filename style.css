@@ -148,6 +148,7 @@ body{
     border: 2px solid var(--details-def);
     border-radius: 2px;
     background-color: var(--background-app);
+    color: var(--font-def);
     transition: border-color ease-in-out 0.1s;
 }
 
@@ -160,4 +161,5 @@ body{
     outline: none;
     border: none;
     background-color: var(--background-app);
+    color: var(--font-def);
 }
