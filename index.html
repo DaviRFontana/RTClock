@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RTClock</title>
+</head>
+<body>
+    <span id="app_name">RTClock</span>
+    <div id="app_data_shown_l1">
+        <div id="app_data_shown_l2">
+            <span id="app_data">00:00:00</span>
+        </div>
+    </div>
+    <div id="app_actives">
+        <button type="button" class="actives" id="toggle_theme">Light mode</button>
+        <button type="button" class="actives" id="show_statistics">Statistics</button>
+        <button type="button" class="actives" id="unknown">
+            <a class="unknown" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNrwA6MeHbuWg9ruwPDTK0CrvP7qrcUB3bFg&s">???</a>
+        </button>
+        <a href="https://github.com/DaviRFontana" id="app_credits">GH: DaviRFontana.</a>
+    </div>
+    <div id="gmt_selector">
+        <select id="gmt_select">
+            <option value="GMT-12">GMT-12</option>
+            <option value="GMT-11">GMT-11</option>
+            <option value="GMT-10">GMT-10</option>
+            <option value="GMT-9">GMT-9</option>
+            <option value="GMT-8">GMT-8</option>
+            <option value="GMT-7">GMT-7</option>
+            <option value="GMT-6">GMT-6</option>
+            <option value="GMT-5">GMT-5</option>
+            <option value="GMT-4">GMT-4</option>
+            <option value="GMT-3">GMT-3</option>
+            <option value="GMT-2">GMT-2</option>
+            <option value="GMT-1">GMT-1</option>
+            <option value="GMT+0" selected>GMT+0</option>
+            <option value="GMT+1">GMT+1</option>
+            <option value="GMT+2">GMT+2</option>
+            <option value="GMT+3">GMT+3</option>
+            <option value="GMT+4">GMT+4</option>
+            <option value="GMT+5">GMT+5</option>
+            <option value="GMT+6">GMT+6</option>
+            <option value="GMT+7">GMT+7</option>
+            <option value="GMT+8">GMT+8</option>
+            <option value="GMT+9">GMT+9</option>
+            <option value="GMT+10">GMT+10</option>
+            <option value="GMT+11">GMT+11</option>
+            <option value="GMT+12">GMT+12</option>
+            <option value="GMT+13">GMT+13</option>
+            <option value="GMT+14">GMT+14</option>
+        </select>
+        <button class="actives" id="set_timezone">Set Timezone</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
